@@ -7,15 +7,16 @@ import { ReactComponent as ShoppingIcon } from '../../assets/shopping-bag.svg';
 
 import './cart-icon.styles.scss';
 
-const CartIcon = ({ toggleCartHidden, cartLength }) => (
+const CartIcon = ({ toggleCartHidden, numberOfCartItems }) => (
     <div className="cart-icon" onClick={toggleCartHidden}>
         <ShoppingIcon className='shopping-icon'/>
-        <span className="item-count">{cartLength}</span>
+        <span className="item-count">{numberOfCartItems}</span>
     </div>
 )
 
+// Take state from rootReducer, then pass to the CartIcon as props
 const mapStateToProps = (state) => ({
-    cartLength: state.cart.cartItems.length
+    numberOfCartItems: state.cart.cartItems.reduce((accu, item) => accu + item.quantity, 0)
 });
 
 const mapDispatchToProps = (dispatch) => ({
