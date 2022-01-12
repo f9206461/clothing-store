@@ -18,7 +18,7 @@ const StripeCheckoutButton = ({ price }) => {
             billingAddress
             shippingAddress
             // image="https://svgshare.com/i/CUz.svg"
-            image=".\logo-crown.ico"
+            image=".\logo512.png"
             description={`Your total is $${price}`}
             amount={priceForStripe}
             panelLabel="Pay Now"
