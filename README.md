@@ -19,15 +19,16 @@ You can do these commands in Git Bash:\
 `npm run eject`
 
 ## Technologies
-[![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript)](https://github.com/KenTandrian?tab=repositories&language=javascript)
-[![Nodejs](https://img.shields.io/badge/-Nodejs-black?style=flat-square&logo=Node.js)](https://github.com/KenTandrian?tab=repositories&language=javascript)
-[![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react)](https://github.com/KenTandrian?tab=repositories&language=javascript)
-[![HTML5](https://img.shields.io/badge/-HTML5-black?style=flat-square&logo=html5&logoColor=orange)](https://github.com/KenTandrian?tab=repositories&language=html)
-[![CSS3](https://img.shields.io/badge/-CSS3-black?style=flat-square&logo=css3&logoColor=blue)](https://github.com/KenTandrian?tab=repositories&language=css)
-[![Stripe](https://img.shields.io/badge/-Stripe-black?style=flat-square&logo=Stripe)](https://github.com/KenTandrian?tab=repositories)
-[![Heroku](https://img.shields.io/badge/-Heroku-black?style=flat-square&logo=heroku)](https://github.com/KenTandrian?tab=repositories)
-[![Redux](https://img.shields.io/badge/-Redux-black?style=flat-square&logo=Redux)](https://github.com/KenTandrian?tab=repositories&language=javascript)
-[![Firebase](https://img.shields.io/badge/-Firebase-black?style=flat-square&logo=Firebase)](https://github.com/KenTandrian?tab=repositories&language=javascript)
+[![HTML5](https://img.shields.io/badge/-HTML5-black?style=for-the-badge&logo=html5&logoColor=orange)](https://github.com/KenTandrian?tab=repositories&language=html)
+[![CSS3](https://img.shields.io/badge/-CSS3-black?style=for-the-badge&logo=css3&logoColor=blue)](https://github.com/KenTandrian?tab=repositories&language=css)
+[![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=for-the-badge&logo=javascript)](https://github.com/KenTandrian?tab=repositories&language=javascript)
+[![Nodejs](https://img.shields.io/badge/-Nodejs-black?style=for-the-badge&logo=Node.js)](https://github.com/KenTandrian?tab=repositories&language=javascript)
+[![React](https://img.shields.io/badge/-React-black?style=for-the-badge&logo=react)](https://github.com/KenTandrian?tab=repositories&language=javascript)
+[![Stripe](https://img.shields.io/badge/-Stripe-black?style=for-the-badge&logo=Stripe)](https://github.com/KenTandrian?tab=repositories)
+[![Heroku](https://img.shields.io/badge/-Heroku-black?style=for-the-badge&logo=heroku&logoColor=%23430098)](https://github.com/KenTandrian?tab=repositories)
+[![Redux](https://img.shields.io/badge/-Redux-black?style=for-the-badge&logo=Redux&logoColor=%23593d88)](https://github.com/KenTandrian?tab=repositories&language=javascript)
+[![Firebase](https://img.shields.io/badge/-Firebase-black?style=for-the-badge&logo=Firebase)](https://github.com/KenTandrian?tab=repositories)
+[![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)](https://github.com/KenTandrian?tab=repositories)
 
 ## Dependencies
 [![firebase](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/firebase)](https://www.npmjs.com/package/firebase)
@@ -37,8 +38,15 @@ You can do these commands in Git Bash:\
 [![react-router-dom](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/react-router-dom)](https://www.npmjs.com/package/react-router-dom)
 [![react-stripe-checkout](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/react-stripe-checkout)](https://www.npmjs.com/package/react-stripe-checkout)
 [![redux](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/redux)](https://www.npmjs.com/package/redux)
+[![redux-logger](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/redux-logger)](https://www.npmjs.com/package/redux-logger)
+[![redux-persist](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/redux-persist)](https://www.npmjs.com/package/redux-persist)
+[![reselect](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/reselect)](https://www.npmjs.com/package/reselect)
 
 [Go to List of Dependencies](https://github.com/KenTandrian/crwn-clothing/network/dependencies)
+
+## Screenshot
+![image](https://user-images.githubusercontent.com/60643640/149145234-a772e2d1-a13c-4070-a00a-d5867b0d1fb0.png)
+
 
 ## 
 &#169; Ken Tandrian 2022.
