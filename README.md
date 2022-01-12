@@ -41,4 +41,4 @@ You can do these commands in Git Bash:\
 [Go to List of Dependencies](https://github.com/KenTandrian/crwn-clothing/network/dependencies)
 
 ## 
-&#169; Ken Tandrian 2021.
+&#169; Ken Tandrian 2022.
