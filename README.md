@@ -1,9 +1,9 @@
 # CRWN Clothing
-![issues](https://img.shields.io/github/issues/KenTandrian/crwn-clothing)
-![language](https://img.shields.io/github/languages/count/KenTandrian/crwn-clothing)
-![top-language](https://img.shields.io/github/languages/top/KenTandrian/crwn-clothing)
-![commit](https://img.shields.io/github/commit-activity/m/KenTandrian/crwn-clothing)
-![last-commit](https://img.shields.io/github/last-commit/KenTandrian/crwn-clothing)
+[![issues](https://img.shields.io/github/issues/KenTandrian/crwn-clothing)](https://github.com/KenTandrian/crwn-clothing/issues)
+[![language](https://img.shields.io/github/languages/count/KenTandrian/crwn-clothing)](https://github.com/KenTandrian/crwn-clothing/search?l=javascript)
+[![top-language](https://img.shields.io/github/languages/top/KenTandrian/crwn-clothing)](https://github.com/KenTandrian/crwn-clothing/search?l=javascript)
+[![commit](https://img.shields.io/github/commit-activity/m/KenTandrian/crwn-clothing)](https://github.com/KenTandrian/crwn-clothing/commits/main)
+[![last-commit](https://img.shields.io/github/last-commit/KenTandrian/crwn-clothing)](https://github.com/KenTandrian/crwn-clothing/commits/main)
 
 ## Introduction
 CRWN Clothing is a clothing and apparel e-commerce made with React JS, Stripe integration, and Node-sass.
@@ -37,3 +37,8 @@ You can do these commands in Git Bash:\
 [![react-router-dom](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/react-router-dom)](https://www.npmjs.com/package/react-router-dom)
 [![react-stripe-checkout](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/react-stripe-checkout)](https://www.npmjs.com/package/react-stripe-checkout)
 [![redux](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/redux)](https://www.npmjs.com/package/redux)
+
+[Go to List of Dependencies](https://github.com/KenTandrian/crwn-clothing/network/dependencies)
+
+## 
+&#169; Ken Tandrian 2021.
