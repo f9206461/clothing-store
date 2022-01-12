@@ -6,7 +6,7 @@ import rootReducer from "./root-reducer";
 
 const middlewares = []; // we can still add another middlewares here
 
-if (process.env.NODE_ENV === 'production'){
+if (process.env.NODE_ENV === 'development'){
     middlewares.push(logger);
 }
 
