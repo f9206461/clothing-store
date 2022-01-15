@@ -19,13 +19,14 @@ export const selectCollections = createSelector(
 
 export const selectCollectionsForPreview = createSelector(
     [selectCollections],
-    collections => Object.keys(collections).map(key => collections[key]) // collections[key] is the value.
+    collections => 
+        collections ? Object.keys(collections).map(key => collections[key]) : [] // collections[key] is the value.
 )
 
 // Persist only memoize values stored in state, while memoize will memoize the RETURN of this function, which is the createSelector.
 export const selectCollection = memoize((collectionUrlParam) => 
     createSelector(
         [selectCollections], 
-        collections => collections[collectionUrlParam]
+        collections => (collections ? collections[collectionUrlParam] : null)
     )
 );
