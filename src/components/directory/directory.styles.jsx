@@ -6,3 +6,9 @@ export const DirectoryMenuCont = styled.div`
     flex-wrap: wrap;
     justify-content: space-between;
 `;
+
+export const Title = styled.h2`
+    font-size: 38px;
+    margin: 0 auto 30px;
+    margin-bottom: 60px;
+`;
