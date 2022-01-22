@@ -7,6 +7,7 @@ import { CollectionPageCont, Title, ItemsCont, CollectionItemCont } from "./coll
 
 const CollectionPage = ({ collection }) => {
     const { title, items } = collection;
+
     return (
         <CollectionPageCont>
             <Title>{title}</Title>
