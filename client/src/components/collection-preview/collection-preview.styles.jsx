@@ -9,6 +9,7 @@ export const CollectionPreviewCont = styled.div`
 export const TitleCont = styled.h1`
     font-size: 28px;
     margin-bottom: 25px;
+    cursor: pointer;
 `;
 
 export const PreviewCont = styled.div`
