@@ -31,7 +31,7 @@ You can do these commands in Git Bash:\
 [![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)](https://github.com/KenTandrian?tab=repositories)
 
 ## Dependencies
-[![firebase](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/firebase)](https://www.npmjs.com/package/firebase)
+<!-- [![firebase](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/firebase)](https://www.npmjs.com/package/firebase)
 [![node-sass](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/node-sass)](https://www.npmjs.com/package/node-sass)
 [![react](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/react)](https://www.npmjs.com/package/react)
 [![react-redux](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/react-redux)](https://www.npmjs.com/package/react-redux)
@@ -40,7 +40,10 @@ You can do these commands in Git Bash:\
 [![redux](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/redux)](https://www.npmjs.com/package/redux)
 [![redux-logger](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/redux-logger)](https://www.npmjs.com/package/redux-logger)
 [![redux-persist](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/redux-persist)](https://www.npmjs.com/package/redux-persist)
-[![reselect](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/reselect)](https://www.npmjs.com/package/reselect)
+[![reselect](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/reselect)](https://www.npmjs.com/package/reselect) -->
+[![express](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/express)](https://www.npmjs.com/package/express)
+[![nodemon](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/dev/nodemon)](https://www.npmjs.com/package/nodemon)
+[![stripe](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/stripe)](https://www.npmjs.com/package/stripe)
 
 [Go to List of Dependencies](https://github.com/KenTandrian/crwn-clothing/network/dependencies)
 
