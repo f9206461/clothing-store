@@ -4,6 +4,11 @@ export const SignInCont = styled.div`
     width: 380px;
     display: flex;
     flex-direction: column;
+
+    @media screen and (max-width: 800px) {
+        width: 100%;
+        padding: 0 10px;
+    }
 `;
 
 export const Title = styled.h2`
@@ -13,4 +18,9 @@ export const Title = styled.h2`
 export const ButtonsCont = styled.div`
     display: flex;
     justify-content: space-between;
+
+    @media screen and (max-width: 800px) {
+        display: grid;
+        grid-gap: 10px;
+    }
 `;

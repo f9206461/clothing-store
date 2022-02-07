@@ -26,6 +26,10 @@ export const MenuItemContainer = styled.div`
 
     &.large {
       height: 380px;
+
+      @media screen and (max-width: 800px) {
+        height: 200px;
+    }
     }
   
     &:first-child {
@@ -34,6 +38,10 @@ export const MenuItemContainer = styled.div`
   
     &:last-child {
       margin-left: 7.5px;
+    }
+
+    @media screen and (max-width: 800px) {
+        height: 200px;
     }
 `;
 
