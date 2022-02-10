@@ -12,13 +12,23 @@ const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 const app = express();
 const port = process.env.PORT || 5000;
 
-app.use(compression);
 app.use(bodyParser.json()); // make every request to JSON
 app.use(bodyParser.urlencoded({ extended: true })); // make sure they have no unnecessary spaces
 
 // app.use(cors()); // Not needed anymore
 
+function shouldCompress (req, res) {
+    if (req.headers['x-no-compression']) {
+      // don't compress responses with this request header
+      return false;
+    }
+  
+    // fallback to standard filter function
+    return compression.filter(req, res);
+}
+
 if (process.env.NODE_ENV === 'production'){
+    app.use(compression({ filter: shouldCompress }));
     app.use(enforce.HTTPS({ trustProtoHeader: true }));
     app.use(express.static(path.join(__dirname, 'client/build')));
 
