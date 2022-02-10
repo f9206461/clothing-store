@@ -33,17 +33,17 @@ yarn-error.log*
 /client/.yarn/*
 /client/.yarn/install-state.gz
 /client/.yarn/cache
-/client/.yarn/patches
-/client/.yarn/plugins
+!/client/.yarn/patches
+!/client/.yarn/plugins
 !/client/.yarn/releases
-/client/.yarn/sdks
-/client/.yarn/versions
+!/client/.yarn/sdks
+!/client/.yarn/versions
 
 .yarn/*
 .yarn/install-state.gz
 .yarn/cache
-.yarn/patches
-.yarn/plugins
-.yarn/releases
-.yarn/sdks
-.yarn/versions
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
