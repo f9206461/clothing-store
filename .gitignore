@@ -35,7 +35,7 @@ yarn-error.log*
 /client/.yarn/cache
 /client/.yarn/patches
 /client/.yarn/plugins
-/client/.yarn/releases
+!/client/.yarn/releases
 /client/.yarn/sdks
 /client/.yarn/versions
 
