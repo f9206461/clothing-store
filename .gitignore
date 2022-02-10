@@ -29,3 +29,21 @@ yarn-debug.log*
 yarn-error.log*
 
 /client/src/assets/logo-crwn.ai
+
+/client/.yarn/*
+/client/.yarn/install-state.gz
+/client/.yarn/cache
+/client/.yarn/patches
+/client/.yarn/plugins
+/client/.yarn/releases
+/client/.yarn/sdks
+/client/.yarn/versions
+
+.yarn/*
+.yarn/install-state.gz
+.yarn/cache
+.yarn/patches
+.yarn/plugins
+.yarn/releases
+.yarn/sdks
+.yarn/versions
