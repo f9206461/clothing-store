@@ -48,7 +48,7 @@ You can do these commands in Git Bash:\
 [Go to List of Dependencies](https://github.com/KenTandrian/crwn-clothing/network/dependencies)
 
 ## Screenshot
-![image](https://user-images.githubusercontent.com/60643640/149145234-a772e2d1-a13c-4070-a00a-d5867b0d1fb0.png)
+![image](https://user-images.githubusercontent.com/60643640/153547421-4b9e964e-86e3-49db-9e35-4b51077c8cb5.png)
 
 
 ## 
