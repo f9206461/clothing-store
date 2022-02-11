@@ -55,7 +55,8 @@ export const NameCont = styled.span`
 `;
 
 export const PriceCont = styled.span`
-    width: 10%;
+    width: 12%;
+    text-align: right;
 `;
 
 export const CustomButtonCont = styled(CustomButton)`
