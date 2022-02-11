@@ -22,4 +22,15 @@ export const clearItemFromCart = (item) => ({
 
 export const clearCart = () => ({
     type: CartActionTypes.CLEAR_CART
-})
+});
+
+export const updateCartInFirebase = () => ({
+    type: CartActionTypes.UPDATE_CART_IN_FIREBASE
+});
+
+export const setCartFromFirebase = cartItems => ({
+    type: CartActionTypes.SET_CART_FROM_FIREBASE,
+    payload: cartItems
+    // Why do we need to pass in cartItems?
+    // Because we are setting cart from Firebase to our reducer store.
+});
