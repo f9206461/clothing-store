@@ -21,6 +21,7 @@ export const CollectionItemCont = styled.div`
 
     @media screen and (max-width: 800px) {
         width: 40vw;
+        margin-bottom: 15px;
 
         &:hover {
             .image {
@@ -50,12 +51,16 @@ export const CollectionFooterCont = styled.div`
 `;
 
 export const NameCont = styled.span`
-    width: 90%;
-    margin-bottom: 15px;
+    width: 85%;
+    height: 140%;
+    //margin-bottom: 15px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 `;
 
 export const PriceCont = styled.span`
-    width: 12%;
+    width: 15%;
     text-align: right;
 `;
 
