@@ -24,15 +24,18 @@ export const CartDropdownContainer = styled.div`
     right: 40px;
     z-index: 5;
 `;
+CartDropdownContainer.displayName = 'CartDropdownContainer';
 
 export const EmptyMessageContainer = styled.span`
     font-size: 18px;
     margin: 50px auto;
 `;
+EmptyMessageContainer.displayName = 'EmptyMessageContainer';
 
 export const CartDropdownButton = styled(CustomButton)`
     margin-top: auto;
 `;
+CartDropdownButton.displayName = 'CartDropdownButton';
 
 export const CartItemsContainer = styled.div`
     height: 240px;
@@ -41,3 +44,4 @@ export const CartItemsContainer = styled.div`
 
     ${getScrollable};
 `;
+CartItemsContainer.displayName = 'CartItemsContainer';

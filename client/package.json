@@ -7,6 +7,7 @@
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "@types/jest": "^27.4.0",
     "axios": "^0.25.0",
     "compression": "^1.7.4",
     "firebase": "^9.6.2",
@@ -43,7 +44,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --watchAll --env=jsdom",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -62,6 +63,21 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.6",
+    "enzyme": "^3.11.0",
+    "enzyme-to-json": "^3.6.2",
+    "redux-mock-store": "^1.5.4"
+  },
+  "jest": {
+    "testMatch": [
+      "**/src/**/*.test.{js,jsx,ts,tsx}",
+      "**/src/**/?(*.)(spec|test).{js,jsx,ts,tsx}"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
     ]
   }
 }
