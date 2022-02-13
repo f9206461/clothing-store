@@ -33,6 +33,7 @@ export const CollectionItemCont = styled.div`
         }
     }
 `;
+CollectionItemCont.displayName = 'CollectionItemCont';
 
 export const ImgCont = styled.div`
     width: 100%;
@@ -40,7 +41,9 @@ export const ImgCont = styled.div`
     background-size: cover;
     background-position: center;
     margin-bottom: 5px;
+    background-image: ${({ imageUrl }) => `url(${imageUrl})`};
 `;
+ImgCont.displayName = 'ImgCont';
 
 export const CollectionFooterCont = styled.div`
     width: 100%;
@@ -49,6 +52,7 @@ export const CollectionFooterCont = styled.div`
     justify-content: space-between;
     font-size: 18px;
 `;
+CollectionFooterCont.displayName = 'CollectionFooterCont';
 
 export const NameCont = styled.span`
     width: 85%;
@@ -58,11 +62,13 @@ export const NameCont = styled.span`
     text-overflow: ellipsis;
     overflow: hidden;
 `;
+NameCont.displayName = 'NameCont';
 
 export const PriceCont = styled.span`
     width: 15%;
     text-align: right;
 `;
+PriceCont.displayName = 'PriceCont';
 
 export const CustomButtonCont = styled(CustomButton)`
     width: 80%;
@@ -78,3 +84,4 @@ export const CustomButtonCont = styled(CustomButton)`
         padding: 0 10px;
     }
 `;
+CustomButtonCont.displayName = 'CustomButtonCont';

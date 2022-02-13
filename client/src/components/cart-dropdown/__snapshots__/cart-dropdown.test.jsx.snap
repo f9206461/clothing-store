@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`cart-dropdown should render cart-dropdown 1`] = `
+<CartDropdownContainer>
+  <CartItemsContainer
+    isScrollable={3}
+  >
+    <CartItem
+      item={
+        Object {
+          "id": 1,
+          "name": "t-shirt",
+        }
+      }
+      key="1"
+    />
+    <CartItem
+      item={
+        Object {
+          "id": 2,
+          "name": "shoes",
+        }
+      }
+      key="2"
+    />
+    <CartItem
+      item={
+        Object {
+          "id": 3,
+          "name": "chinos",
+        }
+      }
+      key="3"
+    />
+  </CartItemsContainer>
+  <CartDropdownButton
+    onClick={[Function]}
+  >
+    GO TO CHECKOUT
+  </CartDropdownButton>
+</CartDropdownContainer>
+`;

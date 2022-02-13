@@ -6,10 +6,12 @@ export const CartItemContainer = styled.div`
     height: 80px;
     margin-bottom: 15px;
 `;
+CartItemContainer.displayName = 'CartItemContainer';
 
 export const ImgContainer = styled.img`
     width: 30%;
 `;
+ImgContainer.displayName = 'ImgContainer';
 
 export const ItemDetailsContainer = styled.div`
     width: 70%;
@@ -19,7 +21,9 @@ export const ItemDetailsContainer = styled.div`
     justify-content: center;
     padding: 10px 20px;
 `;
+ItemDetailsContainer.displayName = 'ItemDetailsContainer';
 
 export const NameContainer = styled.span`
     font-size: 16px;
 `;
+NameContainer.displayName = 'NameContainer';

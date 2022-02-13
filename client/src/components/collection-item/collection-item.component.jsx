@@ -11,16 +11,12 @@ import {
     CustomButtonCont
 } from "./collection-item.styles";
 
-const CollectionItem = ({ item, addItem }) => {
+export const CollectionItem = ({ item, addItem }) => {
     const { name, price, imageUrl } = item;
     
     return (
         <CollectionItemCont>
-            <ImgCont className="image"
-                style={{
-                    backgroundImage:`url(${imageUrl})`
-                }}
-            />
+            <ImgCont className="image" imageUrl={imageUrl} />
             <CollectionFooterCont>
                 <NameCont>{name}</NameCont>
                 <PriceCont>{price}</PriceCont>

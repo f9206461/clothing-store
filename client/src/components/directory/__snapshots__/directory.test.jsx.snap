@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Directory Component should render Directory component 1`] = `
+<Fragment>
+  <Title>
+    Welcome to CRWN Clothing!
+  </Title>
+  <DirectoryMenuCont>
+    <withRouter(MenuItem)
+      key="1"
+      title="hats"
+    />
+    <withRouter(MenuItem)
+      key="2"
+      title="jackets"
+    />
+  </DirectoryMenuCont>
+</Fragment>
+`;

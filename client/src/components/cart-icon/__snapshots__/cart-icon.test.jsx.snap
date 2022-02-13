@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`cart-icon should render CartIcon correctly 1`] = `
+<CartIconContainer
+  onClick={[MockFunction]}
+>
+  <ShoppingIconContainer />
+  <ItemCountContainer>
+    15
+  </ItemCountContainer>
+</CartIconContainer>
+`;

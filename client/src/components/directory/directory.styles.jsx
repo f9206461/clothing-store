@@ -6,6 +6,7 @@ export const DirectoryMenuCont = styled.div`
     flex-wrap: wrap;
     justify-content: space-between;
 `;
+DirectoryMenuCont.displayName = 'DirectoryMenuCont';
 
 export const Title = styled.h2`
     font-size: 38px;
@@ -17,3 +18,4 @@ export const Title = styled.h2`
         margin-bottom: 30px;
     }
 `;
+Title.displayName = 'Title';

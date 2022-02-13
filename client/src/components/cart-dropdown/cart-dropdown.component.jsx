@@ -9,7 +9,7 @@ import { toggleCartHidden } from "../../redux/cart/cart.actions";
 
 import { CartDropdownContainer, EmptyMessageContainer, CartDropdownButton, CartItemsContainer } from "./cart-dropdown.styles";
 
-const CartDropdown = () => {
+export const CartDropdown = () => {
     const cartItems = useSelector(selectCartItems);
     const dispatch = useDispatch();
     const history = useHistory();
