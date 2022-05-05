@@ -12,6 +12,10 @@ import App from './App';
 // import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
 
+// New React 18 syntax, but not compatible with react-router-dom routing
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+
+// Hence, the old syntax will be used.
 ReactDOM.render(
   <Provider store={store}>
     <React.StrictMode>
@@ -22,7 +26,7 @@ ReactDOM.render(
       </BrowserRouter>
     </React.StrictMode>
   </Provider>,
-  document.getElementById('root')
+document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change

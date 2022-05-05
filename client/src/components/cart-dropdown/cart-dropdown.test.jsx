@@ -37,10 +37,10 @@ describe('cart-dropdown', () => {
         useSelectorMock.mockReturnValue(mockCartItems);
         useDispatchMock.mockReturnValue(mockDispatch);
 
-        // Mocking useHistory
+        // Mocking useNavigate
         jest.mock('react-router-dom', () => ({
             ...jest.requireActual('react-router-dom'),
-            useHistory: () => ({
+            useNavigate: () => ({
                 push: mockHistory.push,
             }),
         }));
