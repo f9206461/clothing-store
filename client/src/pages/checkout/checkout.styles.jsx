@@ -52,11 +52,13 @@ export const TotalCont = styled.div`
 export const StripeCheckoutBtnCont = styled(StripeCheckoutButton)`
     margin-left: auto;
     margin-top: 50px;
+    margin-bottom: 50px;
 `;
 
 export const TestWarningCont = styled.div`
     text-align: center;
     margin-top: 40px;
+    margin-bottom: 40px;
     font-size: 24px;
     color: red;
 
