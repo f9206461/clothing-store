@@ -9471,9 +9471,13 @@ workbox-cacheable-response@6.5.3, workbox-cacheable-response@^6.5.3:
   dependencies:
     workbox-core "6.5.3"
 
-workbox-core@6.5.3, workbox-core@^6.5.3:
+workbox-core@6.5.3:
   version "6.5.3"
   resolved "https://registry.yarnpkg.com/workbox-core/-/workbox-core-6.5.3.tgz#bca038a9ef0d7a634a6db2a60f45313ed22ac249"
+
+workbox-core@6.5.4, workbox-core@^6.5.3:
+  version "6.5.4"
+  resolved "https://registry.yarnpkg.com/workbox-core/-/workbox-core-6.5.4.tgz#df48bf44cd58bb1d1726c49b883fb1dffa24c9ba"
 
 workbox-expiration@6.5.3, workbox-expiration@^6.5.3:
   version "6.5.3"
@@ -9505,11 +9509,17 @@ workbox-precaching@6.5.3, workbox-precaching@^6.5.3:
     workbox-routing "6.5.3"
     workbox-strategies "6.5.3"
 
-workbox-range-requests@6.5.3, workbox-range-requests@^6.5.3:
+workbox-range-requests@6.5.3:
   version "6.5.3"
   resolved "https://registry.yarnpkg.com/workbox-range-requests/-/workbox-range-requests-6.5.3.tgz#e624ac82ff266a5e4f236d055797def07949d941"
   dependencies:
     workbox-core "6.5.3"
+
+workbox-range-requests@^6.5.4:
+  version "6.5.4"
+  resolved "https://registry.yarnpkg.com/workbox-range-requests/-/workbox-range-requests-6.5.4.tgz#86b3d482e090433dab38d36ae031b2bb0bd74399"
+  dependencies:
+    workbox-core "6.5.4"
 
 workbox-recipes@6.5.3:
   version "6.5.3"
