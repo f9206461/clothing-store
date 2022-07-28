@@ -9414,12 +9414,19 @@ word-wrap@^1.2.3, word-wrap@~1.2.3:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/word-wrap/-/word-wrap-1.2.3.tgz#610636f6b1f703891bd34771ccb17fb93b47079c"
 
-workbox-background-sync@6.5.3, workbox-background-sync@^6.5.3:
+workbox-background-sync@6.5.3:
   version "6.5.3"
   resolved "https://registry.yarnpkg.com/workbox-background-sync/-/workbox-background-sync-6.5.3.tgz#7c66c1836aeca6f3762dc48d17a1852a33b3168c"
   dependencies:
     idb "^6.1.4"
     workbox-core "6.5.3"
+
+workbox-background-sync@6.5.4, workbox-background-sync@^6.5.3:
+  version "6.5.4"
+  resolved "https://registry.yarnpkg.com/workbox-background-sync/-/workbox-background-sync-6.5.4.tgz#3141afba3cc8aa2ae14c24d0f6811374ba8ff6a9"
+  dependencies:
+    idb "^7.0.1"
+    workbox-core "6.5.4"
 
 workbox-broadcast-update@6.5.3:
   version "6.5.3"
@@ -9503,7 +9510,7 @@ workbox-expiration@^6.5.4:
     idb "^7.0.1"
     workbox-core "6.5.4"
 
-workbox-google-analytics@6.5.3, workbox-google-analytics@^6.5.3:
+workbox-google-analytics@6.5.3:
   version "6.5.3"
   resolved "https://registry.yarnpkg.com/workbox-google-analytics/-/workbox-google-analytics-6.5.3.tgz#cc8c3a61f449131660a4ed2f5362d9a3599b18fe"
   dependencies:
@@ -9511,6 +9518,15 @@ workbox-google-analytics@6.5.3, workbox-google-analytics@^6.5.3:
     workbox-core "6.5.3"
     workbox-routing "6.5.3"
     workbox-strategies "6.5.3"
+
+workbox-google-analytics@^6.5.4:
+  version "6.5.4"
+  resolved "https://registry.yarnpkg.com/workbox-google-analytics/-/workbox-google-analytics-6.5.4.tgz#c74327f80dfa4c1954cbba93cd7ea640fe7ece7d"
+  dependencies:
+    workbox-background-sync "6.5.4"
+    workbox-core "6.5.4"
+    workbox-routing "6.5.4"
+    workbox-strategies "6.5.4"
 
 workbox-navigation-preload@6.5.3:
   version "6.5.3"
