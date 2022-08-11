@@ -432,7 +432,7 @@ __metadata:
     express: ^4.18.1
     express-sslify: ^1.2.0
     nodemon: ^2.0.19
-    stripe: ^8.221.0
+    stripe: ^10.1.0
   languageName: unknown
   linkType: soft
 
@@ -866,9 +866,6 @@ __metadata:
 "iconv-lite@npm:0.4.24":
   version: 0.4.24
   resolution: "iconv-lite@npm:0.4.24"
-stripe@^10.1.0:
-  version "10.1.0"
-  resolved "https://registry.yarnpkg.com/stripe/-/stripe-10.1.0.tgz#e1c3659ec7ca16faab0386a5ef9b4480c206af66"
   dependencies:
     safer-buffer: ">= 2.1.2 < 3"
   checksum: bd9f120f5a5b306f0bc0b9ae1edeb1577161503f5f8252a20f1a9e56ef8775c9959fd01c55f2d3a39d9a8abaf3e30c1abeb1895f367dcbbe0a8fd1c9ca01c4f6
@@ -1649,9 +1646,9 @@ stripe@^10.1.0:
   linkType: hard
 
 "spawn-command@npm:^0.0.2-1":
-  version: 0.0.2-1
-  resolution: "spawn-command@npm:0.0.2-1"
-  checksum: 2cac8519332193d1ed37d57298c4a1f73095e9edd20440fbab4aa47f531da83831734f2b51c44bb42b2747bf3485dec3fa2b0a1003f74c67561f2636622e328b
+  version: 0.0.2
+  resolution: "spawn-command@npm:0.0.2"
+  checksum: e35c5d28177b4d461d33c88cc11f6f3a5079e2b132c11e1746453bbb7a0c0b8a634f07541a2a234fa4758239d88203b758def509161b651e81958894c0b4b64b
   languageName: node
   linkType: hard
 
@@ -1700,13 +1697,13 @@ stripe@^10.1.0:
   languageName: node
   linkType: hard
 
-"stripe@npm:^8.221.0":
-  version: 8.222.0
-  resolution: "stripe@npm:8.222.0"
+"stripe@npm:^10.1.0":
+  version: 10.1.0
+  resolution: "stripe@npm:10.1.0"
   dependencies:
     "@types/node": ">=8.1.0"
     qs: ^6.10.3
-  checksum: ac9a5b569abf274a9f10cf5bad09d6cf47d457dad21191e8fc896c356608e75337b2e39b6e39526579d39f5b29c74a34e61c55e706def2498a079f7b4dbaea17
+  checksum: 44b835fdcb0f8989945433bca16ebf5622f5fdb29c1f6a7093de4ede28588e33a3bf0dfd7ceb134652cfbdbed2ab6c4c77e9a64b82de5d648bab2b7e088fb977
   languageName: node
   linkType: hard
 
