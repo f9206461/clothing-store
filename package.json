@@ -2,9 +2,10 @@
   "name": "crwn-clothing-server",
   "version": "1.0.0",
   "engines": {
-    "node": "16.13.2",
+    "node": "16.16.0",
     "npm": "8.1.2"
   },
+  "private": true,
   "scripts": {
     "client": "cd client && yarn start",
     "server": "nodemon server.js",
@@ -25,5 +26,5 @@
     "concurrently": "^7.3.0",
     "nodemon": "^2.0.19"
   },
-  "packageManager": "yarn@3.1.1"
+  "packageManager": "yarn@3.2.2"
 }
