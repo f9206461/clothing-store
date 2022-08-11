@@ -866,6 +866,9 @@ __metadata:
 "iconv-lite@npm:0.4.24":
   version: 0.4.24
   resolution: "iconv-lite@npm:0.4.24"
+stripe@^10.1.0:
+  version "10.1.0"
+  resolved "https://registry.yarnpkg.com/stripe/-/stripe-10.1.0.tgz#e1c3659ec7ca16faab0386a5ef9b4480c206af66"
   dependencies:
     safer-buffer: ">= 2.1.2 < 3"
   checksum: bd9f120f5a5b306f0bc0b9ae1edeb1577161503f5f8252a20f1a9e56ef8775c9959fd01c55f2d3a39d9a8abaf3e30c1abeb1895f367dcbbe0a8fd1c9ca01c4f6
