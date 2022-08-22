@@ -636,9 +636,9 @@ strip-ansi@^6.0.0, strip-ansi@^6.0.1:
   dependencies:
     ansi-regex "^5.0.1"
 
-stripe@^10.2.0:
-  version "10.2.0"
-  resolved "https://registry.yarnpkg.com/stripe/-/stripe-10.2.0.tgz#46de352f599d395a4f072b9e73f918397ee3ac7b"
+stripe@^10.3.0:
+  version "10.3.0"
+  resolved "https://registry.yarnpkg.com/stripe/-/stripe-10.3.0.tgz#73c3aafcbb79df7148dc0c14dce87f51c6fd39fa"
   dependencies:
     "@types/node" ">=8.1.0"
     qs "^6.10.3"
