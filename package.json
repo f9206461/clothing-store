@@ -23,7 +23,7 @@
     "stripe": "^10.7.0"
   },
   "devDependencies": {
-    "concurrently": "^7.3.0",
+    "concurrently": "^7.4.0",
     "nodemon": "^2.0.19"
   },
   "packageManager": "yarn@3.2.2"
