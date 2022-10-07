@@ -7,7 +7,7 @@
     "@svgr/webpack": "^6.4.0",
     "axios": "^1.0.0",
     "compression": "^1.7.4",
-    "firebase": "^9.10.0",
+    "firebase": "^9.11.0",
     "follow-redirects": "^1.15.2",
     "lodash.memoize": "^4.1.2",
     "node-sass": "^7.0.3",
