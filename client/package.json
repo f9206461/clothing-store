@@ -5,7 +5,7 @@
   "proxy": "http://localhost:5000",
   "dependencies": {
     "@svgr/webpack": "^6.4.0",
-    "axios": "^1.0.0",
+    "axios": "^1.1.0",
     "compression": "^1.7.4",
     "firebase": "^9.11.0",
     "follow-redirects": "^1.15.2",
