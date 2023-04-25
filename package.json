@@ -2,8 +2,7 @@
   "name": "crwn-clothing-server",
   "version": "1.0.0",
   "engines": {
-    "node": "16.17.0",
-    "npm": "8.1.2"
+    "node": "^16 || ^18 || ^19"
   },
   "private": true,
   "scripts": {
