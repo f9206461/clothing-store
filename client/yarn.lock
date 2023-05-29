@@ -11372,13 +11372,21 @@ word-wrap@^1.2.3, word-wrap@~1.2.3:
   resolved "https://registry.yarnpkg.com/word-wrap/-/word-wrap-1.2.3.tgz#610636f6b1f703891bd34771ccb17fb93b47079c"
   integrity sha512-Hz/mrNwitNRh/HUAtM/VT/5VH+ygD6DV7mYKZAtHOrbs8U7lvPS6xf7EJKMF0uW1KJCl0H701g3ZGus+muE5vQ==
 
-workbox-background-sync@6.5.4, workbox-background-sync@^6.5.4:
+workbox-background-sync@6.5.4:
   version "6.5.4"
   resolved "https://registry.yarnpkg.com/workbox-background-sync/-/workbox-background-sync-6.5.4.tgz#3141afba3cc8aa2ae14c24d0f6811374ba8ff6a9"
   integrity sha512-0r4INQZMyPky/lj4Ou98qxcThrETucOde+7mRGJl13MPJugQNKeZQOdIJe/1AchOP23cTqHcN/YVpD6r8E6I8g==
   dependencies:
     idb "^7.0.1"
     workbox-core "6.5.4"
+
+workbox-background-sync@6.6.0, workbox-background-sync@^6.5.4:
+  version "6.6.0"
+  resolved "https://registry.yarnpkg.com/workbox-background-sync/-/workbox-background-sync-6.6.0.tgz#058c300672d589b1d8f2d838d940a371bcd0ec09"
+  integrity sha512-jkf4ZdgOJxC9u2vztxLuPT/UjlH7m/nWRQ/MgGL0v8BJHoZdVGJd18Kck+a0e55wGXdqyHO+4IQTk0685g4MUw==
+  dependencies:
+    idb "^7.0.1"
+    workbox-core "6.6.0"
 
 workbox-broadcast-update@6.5.4:
   version "6.5.4"
@@ -11469,7 +11477,7 @@ workbox-expiration@6.5.4, workbox-expiration@^6.5.4:
     idb "^7.0.1"
     workbox-core "6.5.4"
 
-workbox-google-analytics@6.5.4, workbox-google-analytics@^6.5.4:
+workbox-google-analytics@6.5.4:
   version "6.5.4"
   resolved "https://registry.yarnpkg.com/workbox-google-analytics/-/workbox-google-analytics-6.5.4.tgz#c74327f80dfa4c1954cbba93cd7ea640fe7ece7d"
   integrity sha512-8AU1WuaXsD49249Wq0B2zn4a/vvFfHkpcFfqAFHNHwln3jK9QUYmzdkKXGIZl9wyKNP+RRX30vcgcyWMcZ9VAg==
@@ -11478,6 +11486,16 @@ workbox-google-analytics@6.5.4, workbox-google-analytics@^6.5.4:
     workbox-core "6.5.4"
     workbox-routing "6.5.4"
     workbox-strategies "6.5.4"
+
+workbox-google-analytics@^6.6.0:
+  version "6.6.0"
+  resolved "https://registry.yarnpkg.com/workbox-google-analytics/-/workbox-google-analytics-6.6.0.tgz#0db99ba0a08fcd67ddcfce255ebd74d83fc61ba1"
+  integrity sha512-p4DJa6OldXWd6M9zRl0H6vB9lkrmqYFkRQ2xEiNdBFp9U0LhsGO7hsBscVEyH9H2/3eZZt8c97NB2FD9U2NJ+Q==
+  dependencies:
+    workbox-background-sync "6.6.0"
+    workbox-core "6.6.0"
+    workbox-routing "6.6.0"
+    workbox-strategies "6.6.0"
 
 workbox-navigation-preload@6.5.4, workbox-navigation-preload@^6.5.4:
   version "6.5.4"
