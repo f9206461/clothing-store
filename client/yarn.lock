@@ -11481,12 +11481,19 @@ workbox-precaching@6.5.4, workbox-precaching@^6.5.4:
     workbox-routing "6.5.4"
     workbox-strategies "6.5.4"
 
-workbox-range-requests@6.5.4, workbox-range-requests@^6.5.4:
+workbox-range-requests@6.5.4:
   version "6.5.4"
   resolved "https://registry.yarnpkg.com/workbox-range-requests/-/workbox-range-requests-6.5.4.tgz#86b3d482e090433dab38d36ae031b2bb0bd74399"
   integrity sha512-Je2qR1NXCFC8xVJ/Lux6saH6IrQGhMpDrPXWZWWS8n/RD+WZfKa6dSZwU+/QksfEadJEr/NfY+aP/CXFFK5JFg==
   dependencies:
     workbox-core "6.5.4"
+
+workbox-range-requests@^6.6.0:
+  version "6.6.0"
+  resolved "https://registry.yarnpkg.com/workbox-range-requests/-/workbox-range-requests-6.6.0.tgz#dc6e89ca1694e442075fc7fa7ad9f3c4694a848e"
+  integrity sha512-V3aICz5fLGq5DpSYEU8LxeXvsT//mRWzKrfBOIxzIdQnV/Wj7R+LyJVTczi4CQ4NwKhAaBVaSujI1cEjXW+hTw==
+  dependencies:
+    workbox-core "6.6.0"
 
 workbox-recipes@6.5.4:
   version "6.5.4"
