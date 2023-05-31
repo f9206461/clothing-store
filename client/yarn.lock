@@ -11525,12 +11525,12 @@ workbox-navigation-preload@6.5.4:
   dependencies:
     workbox-core "6.5.4"
 
-workbox-navigation-preload@^6.6.0:
-  version "6.6.0"
-  resolved "https://registry.yarnpkg.com/workbox-navigation-preload/-/workbox-navigation-preload-6.6.0.tgz#2f2dbb7178c5762a163dd2f3b22ffd586704f3af"
-  integrity sha512-utNEWG+uOfXdaZmvhshrh7KzhDu/1iMHyQOV6Aqup8Mm78D286ugu5k9MFD9SzBT5TcwgwSORVvInaXWbvKz9Q==
+workbox-navigation-preload@^6.6.1:
+  version "6.6.1"
+  resolved "https://registry.yarnpkg.com/workbox-navigation-preload/-/workbox-navigation-preload-6.6.1.tgz#61a34fe125558dd88cf09237f11bd966504ea059"
+  integrity sha512-DQCZowCecO+wRoIxJI2V6bXWK6/53ff+hEXLGlQL4Rp9ZaPDLrgV/32nxwWIP7QpWDkVEtllTAK5h6cnhxNxDA==
   dependencies:
-    workbox-core "6.6.0"
+    workbox-core "6.6.1"
 
 workbox-precaching@6.5.4:
   version "6.5.4"
