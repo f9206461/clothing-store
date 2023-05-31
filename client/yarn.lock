@@ -11490,13 +11490,13 @@ workbox-expiration@6.5.4:
     idb "^7.0.1"
     workbox-core "6.5.4"
 
-workbox-expiration@^6.6.0:
-  version "6.6.0"
-  resolved "https://registry.yarnpkg.com/workbox-expiration/-/workbox-expiration-6.6.0.tgz#2299c86a9c9dcca17eec48f68ac88b8652bc8e4e"
-  integrity sha512-baplYXcDHbe8vAo7GYvyAmlS4f6998Jff513L4XvlzAOxcl8F620O91guoJ5EOf5qeXG4cGdNZHkkVAPouFCpw==
+workbox-expiration@^6.6.1:
+  version "6.6.1"
+  resolved "https://registry.yarnpkg.com/workbox-expiration/-/workbox-expiration-6.6.1.tgz#a841fa36676104426dbfb9da1ef6a630b4f93739"
+  integrity sha512-qFiNeeINndiOxaCrd2DeL1Xh1RFug3JonzjxUHc5WkvkD2u5abY3gZL1xSUNt3vZKsFFGGORItSjVTVnWAZO4A==
   dependencies:
     idb "^7.0.1"
-    workbox-core "6.6.0"
+    workbox-core "6.6.1"
 
 workbox-google-analytics@6.5.4:
   version "6.5.4"
