@@ -22,7 +22,7 @@
     "stripe": "^12.9.0"
   },
   "devDependencies": {
-    "concurrently": "^8.1.0",
+    "concurrently": "^8.2.0",
     "nodemon": "^2.0.22"
   }
 }
