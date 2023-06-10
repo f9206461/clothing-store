@@ -1,32 +1,31 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom/cjs/react-router-dom.min';
-import { Provider } from 'react-redux';
-import { PersistGate } from 'redux-persist/integration/react';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
+import { Provider } from "react-redux";
+import { PersistGate } from "redux-persist/integration/react";
 
-import { store, persistor } from './redux/store';
-import * as serviceWorker from './serviceWorkerRegistration';
+import { store, persistor } from "./redux/store";
+import * as serviceWorker from "./serviceWorkerRegistration";
 
-import './index.css';
-import App from './App';
+import "./index.css";
+import App from "./App";
 // import * as serviceWorkerRegistration from './serviceWorkerRegistration';
-import reportWebVitals from './reportWebVitals';
+import reportWebVitals from "./reportWebVitals";
 
 // New React 18 syntax, but not compatible with react-router-dom routing
-// const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 
 // Hence, the old syntax will be used.
-ReactDOM.render(
+root.render(
   <Provider store={store}>
     <React.StrictMode>
       <BrowserRouter>
         <PersistGate persistor={persistor}>
           <App />
-        </PersistGate> 
+        </PersistGate>
       </BrowserRouter>
     </React.StrictMode>
-  </Provider>,
-document.getElementById('root')
+  </Provider>
 );
 
 // If you want your app to work offline and load faster, you can change
