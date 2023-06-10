@@ -32,6 +32,10 @@ jobs:
           node-version: 18.x
           cache: yarn
 
+      - name: 📄 Create env file
+        run: |
+          echo "${{ secrets.ENV_FILE }}" > .env
+
       - name: 🔧 Install Dependencies
         run: yarn install --frozen-lockfile
 
