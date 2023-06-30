@@ -13,11 +13,19 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
+      - name: Cache Yarn
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/yarn/v6
+          key: node-cache-${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          # If source files changed but packages didn't, rebuild from a prior cache.
+          restore-keys: |
+            node-cache-${{ runner.os }}-yarn-
+
       - name: Setup Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-          cache: yarn
 
       - name: Install Server Dependencies
         run: yarn install --frozen-lockfile
