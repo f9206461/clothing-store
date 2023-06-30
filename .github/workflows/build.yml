@@ -10,10 +10,10 @@ jobs:
         node-version: [18.x, 20.x]
 
     steps:
-      - name: Checkout Repository
+      - name: 🛎️ Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Cache Yarn
+      - name: ☁️ Restore Yarn Cache
         uses: actions/cache/restore@v3
         with:
           path: ~/.cache/yarn/v6
@@ -22,16 +22,16 @@ jobs:
           restore-keys: |
             node-cache-${{ runner.os }}-yarn-
 
-      - name: Setup Node.js ${{ matrix.node-version }}
+      - name: ⚙️ Setup Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: Install Server Dependencies
+      - name: 🔧 Install Server Dependencies
         run: yarn install --frozen-lockfile
 
-      - name: Install Client Dependencies
+      - name: 🔧 Install Client Dependencies
         run: cd client && yarn install --frozen-lockfile
 
-      - name: Build Application
+      - name: 🏗️ Build Application
         run: yarn build
