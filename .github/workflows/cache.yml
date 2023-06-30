@@ -1,0 +1,33 @@
+name: Cache Yarn
+on:
+  schedule:
+    - cron: "0 0 * * 0"
+  workflow_dispatch:
+
+env:
+  NODE_VERSION: 18.x
+
+jobs:
+  cache:
+    name: Cache with Node.js 18.x
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Cache Yarn
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/yarn/v6
+          key: node-cache-${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          # If source files changed but packages didn't, rebuild from a prior cache.
+          restore-keys: |
+            node-cache-${{ runner.os }}-yarn-
+
+      - name: Setup Node.js ${{ env.NODE_VERSION }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Install Dependencies
+        run: yarn install --frozen-lockfile
