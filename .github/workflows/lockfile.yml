@@ -9,4 +9,5 @@ jobs:
       contents: write
     with:
       package-manager: yarn
+      base-version: 1
     secrets: inherit
