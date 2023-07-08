@@ -9,7 +9,14 @@ import {
 } from "./menu-item.styles";
 import { useNavigate } from "react-router-dom";
 
-const MenuItem = ({ title, imageUrl, size, linkUrl }) => {
+interface Props {
+  title: string;
+  imageUrl: string;
+  size: string;
+  linkUrl: string;
+}
+
+const MenuItem = ({ title, imageUrl, size, linkUrl }: Props) => {
   const navigate = useNavigate();
   return (
     <MenuItemContainer className={size} onClick={() => navigate(linkUrl)}>
