@@ -7,7 +7,12 @@ import CheckoutItem from "../../components/checkout-item/checkout-item.component
 
 import { CheckoutPageCont, CheckoutHeaderCont, HeaderBlock, TotalCont, StripeCheckoutBtnCont, TestWarningCont } from "./checkout.styles";
 
-const CheckoutPage = ({cartItems, totalPrice}) => (
+interface Props {
+    cartItems: any[];
+    totalPrice: number;
+}
+
+const CheckoutPage = ({cartItems, totalPrice}: Props) => (
     <CheckoutPageCont>
         <CheckoutHeaderCont>
             <HeaderBlock>
