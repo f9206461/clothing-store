@@ -8,7 +8,7 @@ import { CollectionPageCont, Title, ItemsCont, CollectionItemCont } from "./coll
 
 const CollectionPage = () => {
     const { collectionId } = useParams();
-    const collection = useSelector(selectCollection(collectionId));
+    const collection = useSelector<string, Collection>(selectCollection(collectionId));
 
     const { title, items } = collection;
     return (
