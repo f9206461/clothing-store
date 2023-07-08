@@ -13,7 +13,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
 // New React 18 syntax, but not compatible with react-router-dom routing
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const root = ReactDOM.createRoot(document.getElementById("root")!);
 
 // Hence, the old syntax will be used.
 root.render(
