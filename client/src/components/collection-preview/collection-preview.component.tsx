@@ -8,7 +8,9 @@ import {
 } from "./collection-preview.styles";
 import { useNavigate } from "react-router-dom";
 
-const CollectionPreview = ({ title, items, routeName }: Collection) => {
+type Props = Pick<Collection, "title" | "items" | "routeName">;
+
+const CollectionPreview = ({ title, items, routeName }: Props) => {
   const navigate = useNavigate();
   return (
     <CollectionPreviewCont>

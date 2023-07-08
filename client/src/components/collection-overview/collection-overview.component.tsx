@@ -8,7 +8,7 @@ import CollectionPreview from "../collection-preview/collection-preview.componen
 
 import { Title, CollectionOverviewCont } from "./collection-overview.styles";
 
-const CollectionOverview = ({ collections }) => (
+const CollectionOverview = ({ collections }: { collections: Collection[] }) => (
     <CollectionOverviewCont>
         <Title>SHOP OVERVIEW</Title>
         {
