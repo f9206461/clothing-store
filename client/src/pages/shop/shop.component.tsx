@@ -15,7 +15,7 @@ const CollectionPageContainer = lazy(() =>
   import("../collection/collection.container")
 );
 
-const ShopPage = ({ fetchCollectionsStart }) => {
+const ShopPage = ({ fetchCollectionsStart }: { fetchCollectionsStart: any }) => {
   useEffect(() => {
     fetchCollectionsStart();
     // const collectionRef = firestore.collection('collections');
@@ -58,7 +58,7 @@ const mapStateToProps = createStructuredSelector({
   isCollectionsLoaded: selectIsCollectionsLoaded,
 });
 
-const mapDispatchToProps = (dispatch) => ({
+const mapDispatchToProps = (dispatch: any) => ({
   fetchCollectionsStart: () => dispatch(fetchCollectionsStart()),
 });
 
