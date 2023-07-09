@@ -32,7 +32,7 @@ You can do these commands in Git Bash:\
 [![Heroku](https://img.shields.io/badge/-Heroku-black?style=for-the-badge&logo=heroku&logoColor=%23430098)](https://github.com/KenTandrian?tab=repositories)
 [![Redux](https://img.shields.io/badge/-Redux-black?style=for-the-badge&logo=Redux&logoColor=%23593d88)](https://github.com/KenTandrian?tab=repositories&language=javascript)
 [![Firebase](https://img.shields.io/badge/-Firebase-black?style=for-the-badge&logo=Firebase)](https://github.com/KenTandrian?tab=repositories)
-[![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)](https://github.com/KenTandrian?tab=repositories)
+[![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm)](https://github.com/KenTandrian?tab=repositories)
 
 ## Dependencies
 
