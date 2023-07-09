@@ -7,7 +7,7 @@ import { selectDirectorySections } from "../../redux/directory/directory.selecto
 import { Title, DirectoryMenuCont } from "./directory.styles";
 import MenuItem from '../menu-item/menu-item.component'
 
-export const Directory = ( { sections } ) => {
+export const Directory = ({ sections }: { sections: Section[] }) => {
   return (
     <Fragment>
       <Title>Welcome to CRWN Clothing!</Title>

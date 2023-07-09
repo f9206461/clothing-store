@@ -16,13 +16,7 @@ interface CartReducer {
 }
 
 interface DirectoryReducer {
-    sections: {
-        title: string;
-        imageUrl: string;
-        size: string;
-        id: number;
-        linkUrl: string;
-    }[];
+    sections: Section[];
 }
 
 interface ShopReducer {
