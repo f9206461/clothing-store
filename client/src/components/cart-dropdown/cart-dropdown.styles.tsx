@@ -5,7 +5,7 @@ const Scrollable = css`
     overflow-y: scroll;
 `;
 
-const getScrollable = (props: any) => {
+const getScrollable = (props: CartItemsContainerProps) => {
     if (props.isScrollable){
         return Scrollable;
     }
@@ -37,7 +37,7 @@ export const CartDropdownButton = styled(CustomButton)`
 `;
 CartDropdownButton.displayName = 'CartDropdownButton';
 
-export const CartItemsContainer = styled.div`
+export const CartItemsContainer = styled.div<CartItemsContainerProps>`
     height: 240px;
     display: flex;
     flex-direction: column;

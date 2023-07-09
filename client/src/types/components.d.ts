@@ -1,0 +1,3 @@
+interface CartItemsContainerProps {
+    isScrollable: number;
+}
