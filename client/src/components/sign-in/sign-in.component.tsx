@@ -8,7 +8,12 @@ import { googleSignInStart, emailSignInStart } from "../../redux/user/user.actio
 
 import { SignInCont, Title, ButtonsCont } from './sign-in.styles';
 
-const SignIn = ({ googleSignInStart, emailSignInStart }) => {
+interface Props {
+    googleSignInStart: () => void;
+    emailSignInStart: (email: string, password: string) => void;
+}
+
+const SignIn = ({ googleSignInStart, emailSignInStart }: Props) => {
     // React Hooks
     const [userCredentials, setCredentials] = useState({ 
         email: '', 
@@ -16,12 +21,12 @@ const SignIn = ({ googleSignInStart, emailSignInStart }) => {
     });
 
     const { email, password } = userCredentials;
-    const handleSubmit = async (event) => {
+    const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
         emailSignInStart(email, password);
     }
 
-    const handleChange = (event) => {
+    const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
         const { value, name } = event.target;
 
         setCredentials({ ...userCredentials, [name]: value });
@@ -59,9 +64,9 @@ const SignIn = ({ googleSignInStart, emailSignInStart }) => {
     )
 }
 
-const mapDispatchToProps = dispatch => ({
+const mapDispatchToProps = (dispatch: (action: any) => void) => ({
     googleSignInStart: () => dispatch(googleSignInStart()),
-    emailSignInStart: (email, password) => dispatch(emailSignInStart({ email, password }))
+    emailSignInStart: (email: string, password: string) => dispatch(emailSignInStart({ email, password }))
 })
 
 export default connect(null, mapDispatchToProps)(SignIn);
