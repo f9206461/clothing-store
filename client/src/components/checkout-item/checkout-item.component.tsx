@@ -4,7 +4,14 @@ import { connect } from "react-redux";
 import { clearItemFromCart, addItem, removeItem } from "../../redux/cart/cart.actions";
 import { CheckoutItemCont, ImgCont, ImgBox, TextCont, QtyCont, ArrowCont, ValueCont, RemoveBtnCont } from "./checkout-item.styles";
 
-export const CheckoutItem = ({ cartItem, clearItem, addItem, removeItem }) => {
+interface Props {
+    cartItem: CartItem;
+    clearItem: (item: CartItem) => void;
+    addItem: (item: CartItem) => void;
+    removeItem: (item: CartItem) => void;
+}
+
+export const CheckoutItem = ({ cartItem, clearItem, addItem, removeItem }: Props) => {
     const { name, price, quantity, imageUrl } = cartItem;
 
     return (
@@ -32,10 +39,10 @@ export const CheckoutItem = ({ cartItem, clearItem, addItem, removeItem }) => {
     )
 };
 
-const mapDispatchToProps = (dispatch) => ({
-    clearItem: (item) => dispatch(clearItemFromCart(item)),
-    addItem: item => dispatch(addItem(item)),
-    removeItem: item => dispatch(removeItem(item))
+const mapDispatchToProps = (dispatch: any) => ({
+    clearItem: (item: CartItem) => dispatch(clearItemFromCart(item)),
+    addItem: (item: CartItem) => dispatch(addItem(item)),
+    removeItem: (item: CartItem) => dispatch(removeItem(item))
 })
 
 export default connect(null, mapDispatchToProps)(CheckoutItem);
