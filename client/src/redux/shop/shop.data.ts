@@ -1,4 +1,10 @@
-const SHOP_DATA = {
+const SHOP_DATA: {
+  hats: Collection;
+  sneakers: Collection;
+  jackets: Collection;
+  womens: Collection;
+  mens: Collection;
+} = {
   hats: { 
     id: 1,
     title: 'Hats',

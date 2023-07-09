@@ -1,6 +1,11 @@
 interface Collection {
-    id: string;
+    id: number;
     title: string;
-    items: any[];
+    items: {
+        id: number;
+        name: string;
+        imageUrl: string;
+        price: number;
+    }[];
     routeName: string;
 }
