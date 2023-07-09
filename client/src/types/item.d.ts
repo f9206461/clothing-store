@@ -1,5 +1,10 @@
 interface Item {
-    id: string;
-    quantity: number;
+    id: number;
+    name: string;
+    imageUrl: string;
     price: number;
+}
+
+type CartItem = Item & {
+    quantity: number;
 }

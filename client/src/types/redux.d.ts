@@ -12,7 +12,7 @@ interface RootState {
 
 interface CartReducer {
     hidden: boolean;
-    cartItems: Item[];
+    cartItems: CartItem[];
 }
 
 interface DirectoryReducer {
