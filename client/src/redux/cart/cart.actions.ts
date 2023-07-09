@@ -5,17 +5,17 @@ export const toggleCartHidden = () => ({
     // payload is optional, and we don't need it here
 });
 
-export const addItem = (item) => ({
+export const addItem = (item: Item) => ({
     type: CartActionTypes.ADD_ITEM,
     payload: item
 });
 
-export const removeItem = (item) => ({
+export const removeItem = (item: Item) => ({
     type: CartActionTypes.REMOVE_ITEM,
     payload: item
 });
 
-export const clearItemFromCart = (item) => ({
+export const clearItemFromCart = (item: Item) => ({
     type: CartActionTypes.CLEAR_ITEM_FROM_CART,
     payload: item
 });
@@ -28,7 +28,7 @@ export const updateCartInFirebase = () => ({
     type: CartActionTypes.UPDATE_CART_IN_FIREBASE
 });
 
-export const setCartFromFirebase = cartItems => ({
+export const setCartFromFirebase = (cartItems: Item[]) => ({
     type: CartActionTypes.SET_CART_FROM_FIREBASE,
     payload: cartItems
     // Why do we need to pass in cartItems?
