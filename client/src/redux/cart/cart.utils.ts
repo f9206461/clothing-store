@@ -1,4 +1,4 @@
-export const addItemToCart = (cartItems: CartItem[], cartItemToAdd: CartItem) => {
+export const addItemToCart = (cartItems: CartItem[], cartItemToAdd: Item) => {
     // Just want to find if the cartItemToAdd exists in the cart
     const existingCartItem = cartItems.find(cartItem => cartItem.id === cartItemToAdd.id); 
     //find will only return the first match, while filter returns all matches
@@ -16,7 +16,7 @@ export const addItemToCart = (cartItems: CartItem[], cartItemToAdd: CartItem) =>
     return [...cartItems, {...cartItemToAdd, quantity: 1}];
 }
 
-export const removeItemFromCart = (cartItems: CartItem[], cartItemToRemove: CartItem) => {
+export const removeItemFromCart = (cartItems: CartItem[], cartItemToRemove: Item) => {
     const existingCartItem = cartItems.find(cartItem => cartItem.id === cartItemToRemove.id);
 
     if (existingCartItem?.quantity === 1) {

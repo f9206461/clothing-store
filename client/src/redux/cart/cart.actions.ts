@@ -5,12 +5,12 @@ export const toggleCartHidden = () => ({
     // payload is optional, and we don't need it here
 });
 
-export const addItem = (item: CartItem) => ({
+export const addItem = (item: Item) => ({
     type: CartActionTypes.ADD_ITEM,
     payload: item
 });
 
-export const removeItem = (item: CartItem) => ({
+export const removeItem = (item: Item) => ({
     type: CartActionTypes.REMOVE_ITEM,
     payload: item
 });

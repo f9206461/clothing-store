@@ -11,7 +11,12 @@ import {
     CustomButtonCont
 } from "./collection-item.styles";
 
-export const CollectionItem = ({ item, addItem }) => {
+interface Props {
+    item: Item;
+    addItem: (item: Item) => void;
+}
+
+export const CollectionItem = ({ item, addItem }: Props) => {
     const { name, price, imageUrl } = item;
     
     return (
@@ -26,8 +31,8 @@ export const CollectionItem = ({ item, addItem }) => {
     )
 };
 
-const mapDispatchToProps = dispatch => ({
-    addItem: (item) => dispatch(addItem(item))
+const mapDispatchToProps = (dispatch: any) => ({
+    addItem: (item: Item) => dispatch(addItem(item))
 })
 
 export default connect(null, mapDispatchToProps)(CollectionItem);

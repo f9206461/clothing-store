@@ -35,13 +35,13 @@ export const CollectionItemCont = styled.div`
 `;
 CollectionItemCont.displayName = 'CollectionItemCont';
 
-export const ImgCont = styled.div`
+export const ImgCont = styled.div<ImgContProps>`
     width: 100%;
     height: 95%;
     background-size: cover;
     background-position: center;
     margin-bottom: 5px;
-    background-image: ${({ imageUrl }: any) => `url(${imageUrl})`};
+    background-image: ${({ imageUrl }) => `url(${imageUrl})`};
 `;
 ImgCont.displayName = 'ImgCont';
 
