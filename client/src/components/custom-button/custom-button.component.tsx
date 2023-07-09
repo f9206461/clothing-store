@@ -2,7 +2,9 @@ import React from "react";
 
 import { CustomButtonContainer } from "./custom-button.styles";
 
-const CustomButton = ({ children, ...props }) => (
+type Props = React.ButtonHTMLAttributes<HTMLButtonElement> & CustomButtonContainerProps;
+
+const CustomButton = ({ children, ...props }: Props) => (
     <CustomButtonContainer {...props}>
         {children}
     </CustomButtonContainer>

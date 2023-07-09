@@ -5,3 +5,8 @@ interface CartItemsContainerProps {
 interface ImgContProps {
     imageUrl: string;
 }
+
+interface CustomButtonContainerProps {
+    inverted?: boolean;
+    isGoogleSignIn?: boolean;
+}
