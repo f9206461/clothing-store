@@ -5,7 +5,7 @@ const Scrollable = css`
     overflow-y: scroll;
 `;
 
-const getScrollable = (props) => {
+const getScrollable = (props: any) => {
     if (props.isScrollable){
         return Scrollable;
     }
