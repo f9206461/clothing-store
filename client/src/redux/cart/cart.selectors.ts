@@ -1,7 +1,7 @@
 import { createSelector } from "reselect";
 
 // Input Selector
-const selectCart = (state: any) => state.cart;
+const selectCart = (state: RootState) => state.cart;
 
 // Using createSelector
 export const selectCartItems = createSelector(
