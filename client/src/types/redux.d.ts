@@ -7,6 +7,7 @@ interface RootState {
     cart: CartReducer;
     directory: DirectoryReducer;
     shop: ShopReducer;
+    user: UserReducer;
 }
 
 interface CartReducer {
@@ -34,4 +35,9 @@ interface ShopReducer {
     } | null;
     isFetching: boolean;
     errorMessage: any;
+}
+
+interface UserReducer {
+    currentUser: any;
+    error: any;
 }

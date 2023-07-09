@@ -6,7 +6,7 @@ const INITIAL_STATE = {
 }
 
 // Initial state is the default, only called in the first time.
-const userReducer = (state = INITIAL_STATE, action) => {
+const userReducer = (state = INITIAL_STATE, action: Action) => {
     switch(action.type) {
         case UserActionTypes.SIGN_IN_SUCCESS:
             return {
