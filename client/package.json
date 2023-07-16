@@ -5,7 +5,6 @@
   "private": true,
   "proxy": "http://localhost:5000",
   "dependencies": {
-    "@svgr/webpack": "^8.0.1",
     "axios": "^1.4.0",
     "compression": "^1.7.4",
     "firebase": "^10.0.0",
@@ -83,5 +82,8 @@
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
     ]
+  },
+  "resolutions": {
+    "react-scripts/@svgr/webpack": "^8.0.1"
   }
 }
