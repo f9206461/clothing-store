@@ -11,3 +11,14 @@ jobs:
       package-manager: yarn
       base-version: 1
     secrets: inherit
+
+  client:
+    name: Run workflow
+    needs: run
+    uses: KenTandrian/workflows/.github/workflows/lockfile.yml@main
+    permissions:
+      contents: write
+    with:
+      package-manager: yarn
+      working-directory: ./client
+    secrets: inherit
