@@ -1,7 +1,7 @@
 name: Cleanup Old Cache
 on:
   workflow_run:
-    workflows: ["Cache Yarn", "Lockfile Maintenance"]
+    workflows: ["Cache Yarn", "Lockfile Maintenance", "Lockfile Maintenance (Client)"]
     branches: [main]
     types: [completed]
   workflow_dispatch:
