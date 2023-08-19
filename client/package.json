@@ -85,7 +85,7 @@
     ]
   },
   "resolutions": {
-    "react-scripts/@svgr/webpack": "^8.0.1",
+    "react-scripts/@svgr/webpack": "^8.1.0",
     "firebase/@firebase/firestore/@grpc/proto-loader": "^0.7.0"
   }
 }
