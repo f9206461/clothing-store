@@ -5,7 +5,7 @@
   "private": true,
   "proxy": "http://localhost:5000",
   "dependencies": {
-    "@grpc/proto-loader": "^0.7.0",
+    "@grpc/proto-loader": "^0.7.9",
     "axios": "^1.4.0",
     "compression": "^1.7.4",
     "firebase": "^10.3.0",
