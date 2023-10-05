@@ -1,4 +1,4 @@
-import { createStore, applyMiddleware } from "redux";
+import { configureStore, applyMiddleware } from "@reduxjs/toolkit";
 import logger from "redux-logger";
 import { persistStore } from 'redux-persist';
 // import thunk from "redux-thunk";
@@ -15,7 +15,10 @@ if (process.env.NODE_ENV === 'development'){
     middlewares.push(logger);
 }
 
-const store = createStore(rootReducer, applyMiddleware(...middlewares));
+const store = configureStore({
+    reducer: rootReducer,
+    enhancers: [applyMiddleware(...middlewares)]
+});
 
 // Put our sagas here
 sagaMiddleware.run(rootSaga);
