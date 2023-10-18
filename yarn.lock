@@ -801,10 +801,10 @@ strip-ansi@^6.0.0, strip-ansi@^6.0.1:
   dependencies:
     ansi-regex "^5.0.1"
 
-stripe@^14.0.0:
-  version "14.0.0"
-  resolved "https://registry.yarnpkg.com/stripe/-/stripe-14.0.0.tgz#e672275e5fe73018a32984eb575a7b4beea09db2"
-  integrity sha512-F2bTdawnv2WEPBpB+R6YJ9R//68o7uzcs95A2MJQ7CB48MbqT4DN0TwrDMnWgcoOFT4NYUAScbUiisZ04ybBBQ==
+stripe@^14.1.0:
+  version "14.1.0"
+  resolved "https://registry.yarnpkg.com/stripe/-/stripe-14.1.0.tgz#e747a5c6a0c12f2bcdf0a8ab564e87c804cfa10f"
+  integrity sha512-hpI8OT7jbaVTGOm9bqeCbdVGwM/55Hetn+WpPGFSq7FmlnqLPB7CSZy2eNYU6ko+4tdur6ZMrDKS6wh1CCx8bw==
   dependencies:
     "@types/node" ">=8.1.0"
     qs "^6.11.0"
