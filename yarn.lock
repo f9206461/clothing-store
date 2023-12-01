@@ -837,10 +837,10 @@ strip-ansi@^6.0.0, strip-ansi@^6.0.1:
   dependencies:
     ansi-regex "^5.0.1"
 
-stripe@^14.5.0:
-  version "14.5.0"
-  resolved "https://registry.yarnpkg.com/stripe/-/stripe-14.5.0.tgz#97491ec04271abdcb3d5c0591a3035b338647d6f"
-  integrity sha512-MTt0P0VYDAj2VZyZMW41AxcXVs9s06EDFIHYat4UUkluJgnBHo4T4E2byPhnxoJCPvdzWBwBLnhWbSOg//VTpA==
+stripe@^14.7.0:
+  version "14.7.0"
+  resolved "https://registry.yarnpkg.com/stripe/-/stripe-14.7.0.tgz#11b24a1b5651a22db829aba8b2b8b495dbd3308f"
+  integrity sha512-A6XWH76K0K7IgEBz4odIVxjhkdPduSPafZju6ltAFU0oMbWJlfeaDyMTfRJ9vcYA9zqENfwRizExD/2nZ4rQ1A==
   dependencies:
     "@types/node" ">=8.1.0"
     qs "^6.11.0"
