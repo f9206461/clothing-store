@@ -1,7 +1,7 @@
 {
   "name": "crwn-clothing",
   "homepage": "https://kentandrian.github.io/crwn-clothing",
-  "version": "0.7.28",
+  "version": "0.7.34",
   "private": true,
   "proxy": "http://localhost:5000",
   "dependencies": {
