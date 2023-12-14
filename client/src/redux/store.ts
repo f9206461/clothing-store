@@ -9,9 +9,11 @@ import rootSaga from "./root-saga";
 import rootReducer from "./root-reducer";
 
 const sagaMiddleware = createSagaMiddleware();
+// @ts-ignore
 const middlewares: Middleware[] = [sagaMiddleware]; // we can still add another middlewares here
 
 if (process.env.NODE_ENV === 'development'){
+    // @ts-ignore
     middlewares.push(logger);
 }
 
