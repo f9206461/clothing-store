@@ -25,4 +25,5 @@ const rootReducer = combineReducers({
 //     user: userReducer,
 //     cart: cartReducer
 // });
+// @ts-ignore
 export default persistReducer(persistConfig, rootReducer);

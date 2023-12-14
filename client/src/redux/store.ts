@@ -23,6 +23,7 @@ const store = configureStore({
 // Put our sagas here
 sagaMiddleware.run(rootSaga);
 
+// @ts-ignore
 const persistor = persistStore(store);
 
 export { store, persistor };
