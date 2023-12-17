@@ -5,15 +5,20 @@
 
 version: 2
 updates:
-  - package-ecosystem: "npm" # See documentation for possible values
-    directory: "/" # Location of package manifests
-    schedule:
-      interval: "daily"
-  - package-ecosystem: "npm" # See documentation for possible values
-    directory: "/client" # Location of package manifests
-    schedule:
-      interval: "daily"
-  - package-ecosystem: "github-actions"
+  # Maintain dependencies for github-actions
+  - package-ecosystem: github-actions
     directory: "/"
+    schedule:
+      interval: "weekly"
+
+  # Maintain dependencies for server app
+  - package-ecosystem: npm
+    directory: "/"
+    schedule:
+      interval: "weekly"
+
+  # Maintain dependencies for client app
+  - package-ecosystem: npm
+    directory: "/client"
     schedule:
       interval: "weekly"
