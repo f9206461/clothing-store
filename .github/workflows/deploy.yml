@@ -14,9 +14,12 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
+env:
+  NODE_VERSION: 20.x
+
 jobs:
   build:
-    name: Build application with Node.js 18
+    name: Build application with Node.js
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -35,10 +38,10 @@ jobs:
           restore-keys: |
             node-cache-${{ runner.os }}-yarn-
 
-      - name: ⚙️ Setup Node.js 18
+      - name: ⚙️ Setup Node.js ${{ env.NODE_VERSION }}
         uses: actions/setup-node@v3
         with:
-          node-version: 18.x
+          node-version: ${{ env.NODE_VERSION }}
 
       - name: 📄 Create env file
         run: |
