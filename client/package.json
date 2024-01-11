@@ -39,10 +39,10 @@
     "workbox-streams": "7.0.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --watchAll --env=jsdom",
-    "eject": "react-scripts eject"
+    "build": "tsc && vite build",
+    "serve": "vite preview",
+    "start": "vite",
+    "test": "react-scripts test --watchAll --env=jsdom"
   },
   "eslintConfig": {
     "extends": [
