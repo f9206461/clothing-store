@@ -20,7 +20,7 @@ root.render(
   <Provider store={store}>
     <React.StrictMode>
       <BrowserRouter
-        {...(process.env.NODE_ENV === "production" && {
+        {...(import.meta.env.NODE_ENV === "production" && {
           basename: "/crwn-clothing",
         })}
       >
