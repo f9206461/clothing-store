@@ -30,7 +30,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: ☁️ Restore Yarn Cache
-        uses: actions/cache/restore@v3
+        uses: actions/cache/restore@v4
         with:
           path: ~/.cache/yarn/v6
           key: node-cache-${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
