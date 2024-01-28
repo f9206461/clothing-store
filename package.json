@@ -1,6 +1,6 @@
 {
   "name": "crwn-clothing-server",
-  "version": "1.8.15",
+  "version": "1.8.27",
   "engines": {
     "node": "^18 || ^20"
   },
