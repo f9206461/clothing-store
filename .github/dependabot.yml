@@ -16,9 +16,11 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    open-pull-requests-limit: 0 # disable
 
   # Maintain dependencies for client app
   - package-ecosystem: npm
     directory: "/client"
     schedule:
       interval: "weekly"
+    open-pull-requests-limit: 0 # disable
