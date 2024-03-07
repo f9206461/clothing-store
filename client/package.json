@@ -8,7 +8,7 @@
     "@reduxjs/toolkit": "2.2.0",
     "axios": "1.6.7",
     "compression": "1.7.4",
-    "firebase": "10.8.0",
+    "firebase": "10.8.1",
     "follow-redirects": "1.15.5",
     "lodash.memoize": "4.1.2",
     "react": "18.2.0",
