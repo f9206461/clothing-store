@@ -5,7 +5,7 @@
   "private": true,
   "proxy": "http://localhost:5000",
   "dependencies": {
-    "@reduxjs/toolkit": "2.2.0",
+    "@reduxjs/toolkit": "2.2.1",
     "axios": "1.6.7",
     "compression": "1.7.4",
     "firebase": "10.8.1",
