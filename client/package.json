@@ -76,7 +76,7 @@
     "sass": "1.74.1",
     "typescript": "5.4.4",
     "vite": "5.2.8",
-    "vite-plugin-pwa": "0.19.7",
+    "vite-plugin-pwa": "0.19.8",
     "vite-plugin-svgr": "4.2.0"
   },
   "jest": {
