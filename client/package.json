@@ -87,5 +87,8 @@
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
     ]
+  },
+  "resolutions": {
+    "undici": "^5.28.4"
   }
 }
