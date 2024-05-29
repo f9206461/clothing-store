@@ -56,7 +56,3 @@ You can do these commands in Git Bash:\
 ## Screenshot
 
 ![image](https://user-images.githubusercontent.com/60643640/153547421-4b9e964e-86e3-49db-9e35-4b51077c8cb5.png)
-
-##
-
-&#169; Ken Tandrian 2022.
